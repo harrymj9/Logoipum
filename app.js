@@ -1,0 +1,1 @@
+prompt('comment ça va?')

@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 150px;
+}
+.image-fond {
+  padding: 8px;
+  margin-top: 5px;
+}
+.image-fond img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+h1{
+  font-size: 36px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+.card-para p {
+  margin-bottom: 48px;
+  font-size: 12px;
+}
+.card-form {
+  background: linear-gradient(rgba(217, 217, 217, 1), rgba(115, 115, 115, 1));
+  padding: 35px;
+  max-width: 420px;
+  margin-left: 205px;
+  border-radius: 7px;
+  box-shadow:0 9px 25px 15px rgb(175, 175, 175);
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-content label{
+  font-size: 12px;
+}
+.new-content input {
+  border: solid black 1px;
+  margin-bottom: 35px;
+  height: 30px;
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 1);
+}
+.new-content menu {
+  height: 30px;
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 1);
+  border: solid black 1px;
+}
+.new-content{
+  display: flex;
+  flex-direction: column;
+}
+.new-form{
+  margin-left: 45px;
+}
+.new-form button{
+  padding: 9px;
+  border-radius: 5px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  background: rgba(217, 217, 217, 1);
+  width: 100px;
+}
+.new-puck button{
+  padding: 9px;
+  border-radius: 5px;
+  margin-right: 35px;
+  border: 0;
+  background: rgba(30, 108, 2, 1);
+  color: aliceblue;
+  width: 100px;
+}
+.new-pack{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 12px;
+  font-weight: bold;
+}
